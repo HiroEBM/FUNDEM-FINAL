@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.signup-box {
+  width: 400px;
+  height: 850px;
+  position: absolute;
+  top: 80px;
+  left: 760px;
+  background-color: gray;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 15px 15px 25px 0px rgba(0, 0, 0, 0.275);
+}
+.login-box {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 200px;
+  left: 770px;
+  background-color: gray;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 15px 15px 25px 0px rgba(0, 0, 0, 0.275);
+}
+
+h1 {
+  text-align: center;
+  padding-top: 15px;
+}
+h4 {
+  text-align: center;
+}
+
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+form input {
+  width: 120%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+.signup-box button {
+  width: 360px;
+  height: 35px;
+  margin-top: 50px;
+  margin-left: 0px;
+  border: none;
+  background-color: #49c1a2;
+  color: white;
+  font-size: 18px;
+}
+
+.login-box button {
+  width: 360px;
+  height: 35px;
+  margin-top: 60px;
+  margin-left: 0px;
+  border: none;
+  background-color: #49c1a2;
+  color: white;
+  font-size: 18px;
+}
+
+.para-2-log {
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-bottom: 0px;
+}
+.para-2-reg {
+  margin-top: 10px;
+  margin-left: 60px;
+}
+
+/*sign in link*/
+#signlink {
+  width: 59px;
+  height: 16px;
+  padding-left: 360px;
+  color: rgba(0, 0, 0, 0.66875);
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  text-decoration: underline;
+  text-transform: none;
+}
+
+/*sign in button*/
+.Signin {
+  position: absolute;
+  width: 370px;
+  height: 39px;
+  margin-top: 20px;
+  margin-left: 45px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
+  background-color: rgba(0, 0, 0, 1);
+  border: 1px solid rgba(0, 0, 0, 1);
+}
+
+/* Registration Form */
+
+/*pasword text*/
+#LN,
+#EM,
+#PW,
+#CP {
+  padding-left: 47px;
+  padding-top: 15px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+/*For input type*/
+.input-group2 {
+  padding-top: 10px;
+  padding-left: 47px;
+}
+
+/*email text*/
+#FN {
+  padding-top: 290px;
+  font-weight: 600;
+  font-size: 15px;
+}
+/*sign in link*/
+#signuplink {
+  width: 59px;
+  height: 16px;
+  padding-left: 360px;
+  color: rgba(0, 0, 0, 0.66875);
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  text-decoration: underline;
+  text-transform: none;
+}
+
+/*sign in button*/
+.Signup {
+  position: absolute;
+  width: 370px;
+  height: 39px;
+  margin-top: 20px;
+  margin-left: 45px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
+  background-color: rgba(0, 0, 0, 1);
+  border: 1px solid rgba(0, 0, 0, 1);
+}
+.signup-box .error-msg {
+  margin: 0px 20px 0px 20px;
+  display: block;
+  background: crimson;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+}
+.login-box .error-msg {
+  margin: 0px 20px 0px 20px;
+  display: block;
+  background: crimson;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px 50px 5px 50px;
+}

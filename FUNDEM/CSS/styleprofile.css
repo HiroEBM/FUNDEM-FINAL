@@ -1,0 +1,420 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/*NAVIGATION*/
+nav {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background: black;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 20px;
+  flex-wrap: wrap;
+  position: fixed;
+  z-index: 999;
+}
+nav .logo {
+  font-size: 35px;
+  font-weight: 600;
+  width: 80px;
+  height: 80px;
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+nav ul li {
+  margin: 0 5px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 7px 13px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+nav ul li a.active,
+nav ul li a:hover {
+  color: black;
+  background: white;
+}
+nav .menu-btn i {
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+
+/* FIND THEM AND HELP THEM*/
+#header {
+  width: 100%;
+  top: 40%;
+  left: 10%;
+  transform: translateY(-50);
+  position: absolute;
+  font-weight: bold;
+  font-size: 40px;
+  color: #00bfa6;
+}
+#description {
+  width: 100%;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50);
+  position: absolute;
+  font-weight: bold;
+  font-size: 15;
+  color: black;
+}
+
+/*Header image*/
+#h-img {
+  top: 25%;
+  left: 50%;
+  width: 50%;
+  position: absolute;
+}
+
+/*BUTTON*/
+.buttons button {
+  padding: 15px 10px;
+  color: #fff;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.create {
+  width: 10%;
+  top: 70%;
+  border-radius: 25px;
+  border: 2px solid #242424;
+  background: #242424;
+  color: #fff;
+  left: 10%;
+  position: absolute;
+}
+.create:hover {
+  background-color: black;
+  color: white;
+}
+
+.discover {
+  width: 10%;
+  top: 70%;
+  border-radius: 25px;
+  border: 2px solid #242424;
+  background: transparent;
+  color: black;
+  left: 23%;
+  position: absolute;
+}
+
+.discover:hover {
+  background-color: black;
+  color: white;
+}
+/* FOR THE FIRST INPUT (TITLES) START*/
+#title {
+  position: absolute;
+  width: 43px;
+  height: 25px;
+  left: 640px;
+  top: 212px;
+  color: rgba(0, 0, 0, 1);
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.input-group-titles {
+  position: absolute;
+  width: 401px;
+  height: 66px;
+  left: 618px;
+  top: 256px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 15px 15px 25px 0px rgba(0, 191, 166, 0.3);
+}
+.input-group-titles input {
+  outline: none;
+  border: none;
+  width: 116px;
+  height: 66px;
+  left: 1000px;
+  top: 256px;
+  color: rgba(0, 0, 0, 1);
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+  /* FOR THE FIRST INPUT (TITLES) END*/
+}
+/* FOR THE FIRST INPUT (STORY) START*/
+#story {
+  width: 53px;
+  height: 25px;
+  left: 640px;
+  top: 371px;
+  color: rgba(0, 0, 0, 1);
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+  position: absolute;
+}
+
+.input-group-story {
+  position: absolute;
+  width: 915px;
+  height: 255px;
+  left: 640px;
+  top: 417px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 15px 15px 25px 0px rgba(0, 191, 166, 0.3);
+}
+.input-group-story textarea {
+  border: none;
+  outline: none;
+  resize: none;
+  width: 900px;
+  height: 250px;
+  color: rgba(36, 36, 36, 1);
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+/* FOR THE FIRST INPUT (STORY) END*/
+
+#amount {
+  width: 154px;
+  height: 25px;
+  left: 640px;
+  top: 729px;
+  color: rgba(0, 0, 0, 1);
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+  position: absolute;
+}
+/* FOR THE FIRST INPUT (STORY) START*/
+.input-group-amount {
+  position: absolute;
+  width: 401px;
+  height: 66px;
+  left: 640px;
+  top: 774px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 15px 15px 25px 0px rgba(0, 191, 166, 0.3);
+}
+.input-group-amount input {
+  border: none;
+  outline: none;
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  top: 9px;
+  right: 250px;
+  color: rgba(0, 0, 0, 1);
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+.input-group-amount label {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+  width: 80px;
+  height: 40px;
+  top: 11px;
+  right: 300px;
+  position: absolute;
+}
+/* FOR THE FIRST INPUT (STORY) END*/
+
+/* BUTTON (UPLOAD) */
+#upload {
+  position: absolute;
+  width: 179px;
+  height: 51px;
+  left: 1376px;
+  top: 782px;
+  border-radius: 10px;
+  background-color: rgba(36, 36, 36, 1);
+  border: 1px solid rgba(36, 36, 36, 1);
+  color: #fff;
+  font-size: 17px;
+  font-family: "Poppins";
+}
+/* PICTURE */
+#fund {
+  position: absolute;
+  width: 356px;
+  height: 400px;
+  left: 380px;
+  top: 191px;
+  border-radius: 20px;
+}
+
+/*    FOR HEADER OF PROFILE TAB    */
+#info {
+  position: absolute;
+  width: 385px;
+  height: 46px;
+  left: 829px;
+  top: 245px;
+  color: rgba(0, 0, 0, 1);
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+/* FOR THE INPUT (FIRST NAME) START*/
+.input-group-Fname input {
+  position: absolute;
+  width: 326px;
+  height: 39px;
+  left: 824px;
+  top: 316px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(0, 0, 0, 1);
+  font-size: 15px;
+}
+/* FOR THE INPUT (LAST NAME) START*/
+.input-group-Lname input {
+  position: absolute;
+  width: 326px;
+  height: 39px;
+  left: 1209px;
+  top: 316px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(0, 0, 0, 1);
+  font-size: 15px;
+}
+/* FOR THE INPUT (DATE) START*/
+.input-group-date input {
+  position: absolute;
+  width: 326px;
+  height: 39px;
+  left: 824px;
+  top: 393px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(0, 0, 0, 1);
+  font-size: 15px;
+}
+/* FOR THE INPUT (SEX) START*/
+.input-group-sex input {
+  position: absolute;
+  width: 326px;
+  height: 39px;
+  left: 824px;
+  top: 460px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(0, 0, 0, 1);
+  font-size: 15px;
+}
+/* FOR THE INPUT (NUM) START*/
+.input-group-number input {
+  position: absolute;
+  width: 326px;
+  height: 39px;
+  left: 824px;
+  top: 528px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(0, 0, 0, 1);
+  font-size: 15px;
+}
+/* FOR THE INPUT (EMAIL) START*/
+.input-group-email input {
+  position: absolute;
+  width: 711px;
+  height: 39px;
+  left: 824px;
+  top: 596px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(0, 0, 0, 1);
+  font-size: 15px;
+}
+/* BUTTONS SAVE AND DELETE*/
+.SDbutton button {
+  position: absolute;
+  width: 169px;
+  height: 45px;
+  left: 1170px;
+  top: 672px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Poppins";
+  font-style: normal;
+}
+/* BUTTON SAVE */
+#Schanges {
+  position: absolute;
+  left: 1170px;
+  top: 672px;
+  background-color: rgba(36, 36, 36, 1);
+  border: 1px solid rgba(36, 36, 36, 1);
+  color: #fff;
+}
+/* BUTTON DELETE */
+#delete {
+  position: absolute;
+  left: 1372px;
+  top: 672px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(0, 191, 166, 1);
+}
